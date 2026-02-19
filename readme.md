@@ -20,6 +20,7 @@ The tool follows a three-stage conversion:
 1. Download the latest `pdf2dxf.exe` and `convert-all-pdf-files-in-folder.bat` from the [Releases](#) page.
 2. Place both files in the folder containing your PDFs.
 3. Run `convert-all-pdf-files-in-folder.bat` to convert all files at once.
+4. OPTIONAL: Convert a single file by opening a command line or power shell in the current folder and typing `pdf2dxf.exe` followed by the filename of the PDF you want to convert.
 
 ### Option B: Building from Source
 If you want to modify the code:

@@ -19,8 +19,3 @@ dist/
 # --- Windows System Files ---
 Thumbs.db
 desktop.ini
-
-# --- Binaries (Optional Recommendation) ---
-# gswin64c.exe
-# gsdll64.dll
-# potrace.exe
