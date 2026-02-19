@@ -1,0 +1,26 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# --- PyInstaller ---
+build/
+dist/
+*.spec
+
+# --- Conversion Artifacts ---
+*.pdf
+*.png
+*.pbm
+*.dxf
+
+# --- Windows System Files ---
+Thumbs.db
+desktop.ini
+
+# --- Binaries (Optional Recommendation) ---
+# gswin64c.exe
+# gsdll64.dll
+# potrace.exe
