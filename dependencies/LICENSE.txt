@@ -1,0 +1,7 @@
+------------------
+Dependencies licenses
+------------------
+Ghostscript - Used under the GNU AGPLv3 https://artifex.com/licensing/gnu-agpl-v3
+Potrace - Used under the GNU GPLv2 https://potrace.sourceforge.net/#license
+OpenCV - Licensed under the Apache License 2.0 https://opencv.org/license/
+NumPy - Licensed under the BSD 3-Clause License https://numpy.org/doc/stable/license.html
