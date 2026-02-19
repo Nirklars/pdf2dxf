@@ -2,6 +2,8 @@
 
 An automated command-line tool for Windows that converts and vectorizes PDF documents into DXF format. This tool automates the pipeline of rasterizing a PDF, performing black-and-white thresholding, and tracing the result into a CAD-ready vector file. To convert DXF to DWG open it in Autodesk AutoCAD or similar software and save as.
 
+https://github.com/Nirklars/pdf2dxf
+
 ## How it Works
 
 The tool follows a three-stage conversion:
