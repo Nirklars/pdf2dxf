@@ -24,8 +24,8 @@ pdf = sys.argv[1]
 base = os.path.splitext(pdf)[0]
 
 # Locate our bundled tools
-gs_path = resource_path(os.path.join("dependencies", "gswin64c.exe"))
-potrace_path = resource_path(os.path.join("dependencies", "potrace.exe"))
+gs_path = resource_path("gswin64c.exe")
+potrace_path = resource_path("potrace.exe")
 
 # 1. Rasterize PDF
 # Note: We use the absolute path to the bundled GS
