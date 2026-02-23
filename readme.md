@@ -36,10 +36,11 @@ If you want to modify the code:
    pyinstaller --onefile --add-binary "dependencies/potrace.exe;." --add-binary "dependencies/gswin64c.exe;." --add-binary "dependencies/gsdll64.dll;." pdf2dxf.py
    ```
 
-## Limitations
+## Known limitations and end notes
 - Limited to black and white image tracing. Colors will not affect the result.
-- The tool uses outline tracing, meaning it hollows out. This may not "work" for all applications. Try setting the whole drawing to the same color with a very narrow line weight in your AutoCAD plot styles.
+- The tool uses outline tracing, meaning it follows edges of solid objects. This may not "work" for all applications. Try setting the whole drawing to the same color with a very narrow line weight in your AutoCAD plot styles.
 - Scaling is not consistent. You need to properly scale the result in AutoCAD using SCALE by REFERENCE.
+- For more specific and detailed vectorization try Inkscape https://inkscape.org/
 
 ## Dependencies & Licensing
 
