@@ -12,7 +12,6 @@ dist/
 
 # --- Conversion Artifacts ---
 *.pdf
-*.png
 *.pbm
 
 # --- Windows System Files ---

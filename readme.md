@@ -4,6 +4,8 @@ An automated command-line tool for Windows that converts and vectorizes PDF docu
 
 https://github.com/Nirklars/pdf2dxf
 
+<img src="/example/screenshot example pdf to dxf.png" alt="Preview" width="400">
+
 ## How it Works
 
 The tool follows a three-stage conversion:
