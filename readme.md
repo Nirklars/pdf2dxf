@@ -35,6 +35,12 @@ If you want to modify the code:
    ```powershell
    pyinstaller --onefile --add-binary "dependencies/potrace.exe;." --add-binary "dependencies/gswin64c.exe;." --add-binary "dependencies/gsdll64.dll;." pdf2dxf.py
    ```
+
+## Limitations
+- Limited to black and white image tracing. Colors will not affect the result.
+- The tool uses outline tracing, meaning it hollows out. This may not "work" for all applications. Try setting the whole drawing to the same color with a very narrow line weight in your AutoCAD plot styles.
+- Scaling is not consistent. You need to properly scale the result in AutoCAD using SCALE by REFERENCE.
+
 ## Dependencies & Licensing
 
 This project is a wrapper that utilizes several open-source tools. By using this software, you agree to the terms of the following licenses:
